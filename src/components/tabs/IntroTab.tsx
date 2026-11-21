@@ -29,7 +29,7 @@ export default function IntroTab() {
 
         <div className={styles.actionContainer}>
           <div className={styles.ctaGroup}>
-            <CtaButton href="mailto:Ahmed_Rahi@icloud.com">Let's Talk</CtaButton>
+            <CtaButton href={`mailto:${INTRO_DATA.email}`}>Let's Talk</CtaButton>
             <CtaButton
               href={INTRO_DATA.cvUrl}
               variant="secondary"

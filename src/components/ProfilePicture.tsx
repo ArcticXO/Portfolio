@@ -5,7 +5,7 @@ export default function ProfilePicture() {
     <div className={styles.imageContainer}>
       <img
         src="/assets/profile.jpg"
-        alt="Ahmed Rahi"
+        alt="Ali Al-Abdullah"
         className={styles.image}
         width={160}
         height={160}

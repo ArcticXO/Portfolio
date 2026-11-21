@@ -3,35 +3,39 @@
   --font-serif: 'Newsreader', 'Playfair Display', serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-  /* Colors - Light */
-  --bg: #ffffff;
-  --bg-inverted: #18181b; /* zinc-900 */
-  --text-primary: #18181b; /* zinc-900 */
-  --text-secondary: #52525b; /* zinc-600 */
-  --text-tertiary: #71717a; /* zinc-500 */
-  --text-quaternary: #a1a1aa; /* zinc-400 */
-  --border: #e4e4e7; /* zinc-200 */
-  --border-strong: #d4d4d8; /* zinc-300 */
-  --hover-bg: #f4f4f5; /* zinc-100 */
-  --hover-text: #52525b; /* zinc-600 */
-  --selection-bg: #18181b;
-  --selection-text: #ffffff;
+  /* Colors - Light (Crisp, modern slate with refreshing teal-blue tone) */
+  --bg: #f8fafc;
+  --bg-inverted: #0b1a24;
+  --text-primary: #0f232e;
+  --text-secondary: #33596b;
+  --text-tertiary: #52798c;
+  --text-quaternary: #86a8b7;
+  --border: #dbe8ee;
+  --border-strong: #c2d8e2;
+  --hover-bg: #edf5f8;
+  --hover-text: #0e677c;
+  --accent: #0f766e;
+  --accent-light: #14b8a6;
+  --selection-bg: #99f6e4;
+  --selection-text: #134e4a;
 }
 
 :root.dark {
-  /* Colors - Dark */
-  --bg: #09090b; /* zinc-950 */
-  --bg-inverted: #ffffff;
-  --text-primary: #ffffff;
-  --text-secondary: #a1a1aa; /* zinc-400 */
-  --text-tertiary: #a1a1aa; /* zinc-400 - using 400 for 500 equivalent */
-  --text-quaternary: #71717a; /* zinc-500 */
-  --border: #27272a; /* zinc-800 */
-  --border-strong: #3f3f46; /* zinc-700 */
-  --hover-bg: #27272a; /* zinc-800 */
-  --hover-text: #d4d4d8; /* zinc-300 */
-  --selection-bg: #ffffff;
-  --selection-text: #18181b;
+  /* Colors - Dark (Deep oceanic dark blue/teal, brighter text and accents) */
+  --bg: #0b1922; /* rich dark navy-teal background */
+  --bg-inverted: #f0fdfa;
+  --text-primary: #f0fdfa; /* crisp bright cyan-tinted white */
+  --text-secondary: #a3cddc; /* bright, legible oceanic slate */
+  --text-tertiary: #72a5b9;
+  --text-quaternary: #457388;
+  --border: #173545;
+  --border-strong: #234c62;
+  --hover-bg: #132e3d;
+  --hover-text: #b8e6f4;
+  --accent: #2dd4bf; /* luminous teal accent */
+  --accent-light: #5eead4;
+  --selection-bg: #115e59;
+  --selection-text: #f0fdfa;
 }
 
 *,

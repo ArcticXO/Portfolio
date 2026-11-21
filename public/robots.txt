@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ahmed-rahi.com/sitemap.xml
+Sitemap: https://aliab.me/sitemap.xml

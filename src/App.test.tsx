@@ -13,9 +13,9 @@ describe('App Integration', () => {
   it('renders header, intro tab by default, and footer', () => {
     render(<App />);
 
-    expect(screen.getByRole('heading', { level: 1, name: /ahmed rahi/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: /ali al-abdullah/i })).toBeInTheDocument();
     expect(
-      screen.getByText(/A Software Engineer specializing in full-stack development/i)
+      screen.getByText(/An Automation & Software Engineer specializing in test automation/i)
     ).toBeInTheDocument();
     expect(screen.getByText(/© \d{4}/)).toBeInTheDocument();
   });
@@ -38,14 +38,14 @@ describe('App Integration', () => {
     render(<App />);
 
     expect(screen.getByRole('heading', { level: 2, name: /degrees/i })).toBeInTheDocument();
-    expect(screen.getByText(/University of Leeds/i)).toBeInTheDocument();
+    expect(screen.getByText(/Aston University, Birmingham/i)).toBeInTheDocument();
   });
 
   it('supports backward-compatible URL hash on initial render', () => {
     window.location.hash = '#writing';
     render(<App />);
 
-    expect(screen.getByText(/Interactive Exercise Tracking/i)).toBeInTheDocument();
+    expect(screen.getByText(/GitHub Malware: My observations/i)).toBeInTheDocument();
   });
 
   it('toggles dark mode class on documentElement and saves preference', () => {

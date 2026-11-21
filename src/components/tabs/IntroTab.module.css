@@ -42,19 +42,22 @@
 
 .highlight,
 .highlightLink {
-  color: var(--text-primary);
+  color: var(--accent);
   font-weight: 500;
 }
 
 .highlightLink {
   text-decoration: underline;
-  text-decoration-color: var(--border-strong);
+  text-decoration-color: var(--accent);
   text-underline-offset: 3px;
-  transition: text-decoration-color 0.2s;
+  transition:
+    text-decoration-color 0.2s,
+    opacity 0.2s;
 }
 
 .highlightLink:hover {
-  text-decoration-color: var(--text-primary);
+  text-decoration-color: var(--accent-light, var(--accent));
+  opacity: 0.9;
 }
 
 .actionContainer {

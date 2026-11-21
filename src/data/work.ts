@@ -12,30 +12,38 @@ export interface WorkItem {
 export const WORK_DATA: WorkItem[] = [
   {
     id: 1,
-    title: 'Kinect Fitness Playground',
-    date: 'Jan 2026',
+    title: 'FloodManager (Flood Reporting App)',
+    date: 'Sep 2024 — Jun 2025',
     description:
-      'Built a Python fitness application using the Microsoft Xbox Kinect V2 for real-time body movement tracking, automatic rep counting, and form feedback. Implemented experimental heart rate monitoring using Photoplethysmography (PPG) via visual detection, alongside a personal leaderboard and form quality tracker.',
-    tech: 'Python · OpenCV · NumPy · SciPy · Pygame',
-    link: 'https://github.com/Arahi20/Kinect-Fitness',
-    video: 'https://www.youtube.com/embed/UJg7q93IMOE',
+      'Engineered a resilient, cross-platform flood reporting and alert application designed to support 10,000+ concurrent users during environmental emergencies. Built with Swift on iOS and Python (Flask) on the backend, deployed on AWS with Docker, Application Load Balancers (ALB), and database sharding to guarantee redundancy, zero-downtime failover, and secure JWT authentication.',
+    tech: 'Swift · Python (Flask) · AWS · Docker · ALB · PostgreSQL · JWT',
+    link: 'https://github.com/ArcticXO/FloodManager',
   },
   {
     id: 2,
-    title: 'Edustruct (Imperial Hackathon)',
-    date: 'Nov 2023',
+    title: 'Baytal',
+    date: '2024 — 2025',
     description:
-      "Educational platform developed during IC Hack 2024 to teach children coding visually. Merged Leetcode principles with Scratch's simplicity for interactive 5-minute daily exercises.",
-    tech: 'JavaScript · Flask · HTML',
-    link: 'https://github.com/christieszi/edustruct',
-    image: '/assets/edustruct.png',
+      'Full-stack modern web application platform built with TypeScript and Next.js, featuring modular architecture, responsive interfaces, and optimized server-side rendering for rich user interactions.',
+    tech: 'TypeScript · Next.js · React · Tailwind CSS',
+    link: 'https://github.com/ArcticXO/Baytal',
   },
   {
     id: 3,
-    title: 'Covert Woods (2D Engine)',
-    date: 'Nov 2022',
+    title: 'GitHub Malware & Security Research',
+    date: 'May 2025',
     description:
-      'Designed and built a versatile 2D game engine in C# and MonoGame with physics and collision handling, completed as my undergraduate dissertation.',
-    tech: 'C# · MonoGame',
+      'Investigative security research into malicious repositories and infostealers circulating on GitHub. Explored reverse-engineering techniques, obfuscated scripts, and token exfiltration vectors that bypass multi-factor authentication.',
+    tech: 'Cybersecurity · Python · Malware Analysis · Reverse Engineering',
+    link: 'https://aliab.me/posts/Malware/',
+  },
+  {
+    id: 4,
+    title: 'Swift Developer Tooling & iOS Utilities',
+    date: '2024',
+    description:
+      'Collection of lightweight developer command-line tools and native Apple applications including easycommit and reglookup, built using Swift and SwiftUI to enhance terminal productivity.',
+    tech: 'Swift · SwiftUI · CLI · macOS / iOS',
+    link: 'https://github.com/ArcticXO/easycommit',
   },
 ];

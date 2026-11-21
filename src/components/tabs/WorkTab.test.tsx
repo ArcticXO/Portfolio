@@ -6,20 +6,16 @@ describe('WorkTab Component', () => {
   it('renders all work items', () => {
     render(<WorkTab />);
 
-    expect(screen.getByText('Kinect Fitness Playground')).toBeInTheDocument();
-    expect(screen.getByText('Edustruct (Imperial Hackathon)')).toBeInTheDocument();
-    expect(screen.getByText('Covert Woods (2D Engine)')).toBeInTheDocument();
+    expect(screen.getByText('FloodManager (Flood Reporting App)')).toBeInTheDocument();
+    expect(screen.getByText('Baytal')).toBeInTheDocument();
+    expect(screen.getByText('GitHub Malware & Security Research')).toBeInTheDocument();
+    expect(screen.getByText('Swift Developer Tooling & iOS Utilities')).toBeInTheDocument();
   });
 
-  it('renders link for projects that have one and no link for Covert Woods', () => {
+  it('renders link for projects that have one', () => {
     render(<WorkTab />);
 
-    // Kinect has a link
-    const kinectLink = screen.getByRole('link', { name: /kinect fitness playground/i });
-    expect(kinectLink).toHaveAttribute('href', 'https://github.com/Arahi20/Kinect-Fitness');
-
-    // Covert Woods does NOT have a link
-    const covertWoodsElement = screen.getByText('Covert Woods (2D Engine)');
-    expect(covertWoodsElement.closest('a')).toBeNull();
+    const floodLink = screen.getByRole('link', { name: /floodmanager/i });
+    expect(floodLink).toHaveAttribute('href', 'https://github.com/ArcticXO/FloodManager');
   });
 });

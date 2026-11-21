@@ -1,8 +1,8 @@
-# Ahmed Rahi — Portfolio
+# Ali Al-Abdullah — Portfolio
 
 Personal portfolio website built with React, TypeScript, and Vite.
 
-Live deployment: [ahmed-rahi.com](https://ahmed-rahi.com/)
+Live deployment: [aliab.me](https://aliab.me/)
 
 ## Tech Stack
 
@@ -32,6 +32,7 @@ npm run build
 
 ## Contact
 
-- **Website**: [ahmed-rahi.com](https://ahmed-rahi.com)
-- **GitHub**: [github.com/Arahi20](https://github.com/Arahi20)
-- **LinkedIn**: [linkedin.com/in/ahmed-rahi-8576a3217](https://www.linkedin.com/in/ahmed-rahi-8576a3217)
+- **Website**: [aliab.me](https://aliab.me)
+- **GitHub**: [github.com/arcticxo](https://github.com/arcticxo)
+- **LinkedIn**: [linkedin.com/in/ali-al-abdullah-1b4352212](https://linkedin.com/in/ali-al-abdullah-1b4352212)
+- **Email**: [AlAbdullah.ali@hotmail.com](mailto:AlAbdullah.ali@hotmail.com)

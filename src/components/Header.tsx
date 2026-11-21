@@ -31,7 +31,7 @@ export default function Header({ activeTab, setActiveTab, isDark, setIsDark }: H
   return (
     <header className={styles.header}>
       <div className={styles.titleContainer}>
-        <h1 className={styles.title}>Ahmed Rahi</h1>
+        <h1 className={styles.title}>Ali Al-Abdullah</h1>
         <motion.button
           onClick={() => setIsDark(!isDark)}
           className={styles.themeToggle}

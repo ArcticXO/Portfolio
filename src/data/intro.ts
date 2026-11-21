@@ -1,23 +1,24 @@
 export const INTRO_DATA = {
   paragraph1:
-    'A Software Engineer specializing in full-stack development across the entire software lifecycle at',
-  highlight: 'Quantium',
-  highlightUrl: 'https://quantium.com',
+    'An Automation & Software Engineer specializing in test automation, scalable backend systems, and device infrastructure at',
+  highlight: 'RealityMine',
+  highlightUrl: 'https://www.realitymine.com',
   paragraph2:
-    'With an MSc in Advanced Computer Science (Artificial Intelligence) from the University of Leeds and a First-Class BSc in Computer Science from the University of Leicester, I have delivered full-stack features and led architectural migrations on a retail analytics platform serving thousands of clients. Passionate about building scalable, high-quality software and exploring emerging technologies.',
+    'First-Class BSc in Computer Science graduate from Aston University with hands-on experience designing cross-platform applications, automated testing pipelines, and cloud-native backends. Experienced with Python, Swift, Java, C#, and Docker, with a keen focus on distributed systems, security, and developer tooling.',
+  email: 'AlAbdullah.ali@hotmail.com',
   cvUrl: '/assets/cv.pdf',
   links: [
     {
       label: 'GitHub',
-      url: 'https://github.com/Arahi20',
+      url: 'https://github.com/arcticxo',
       icon: 'github',
     },
     {
       label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/ahmed-rahi-8576a3217',
+      url: 'https://linkedin.com/in/ali-al-abdullah-1b4352212',
       icon: 'linkedin',
     },
-    { label: 'Email', url: 'mailto:Ahmed_Rahi@icloud.com', icon: 'mail' },
-    { label: 'Medium', url: 'https://medium.com/@ahmedrahi', icon: 'arrow-up-right' },
+    { label: 'Email', url: 'mailto:AlAbdullah.ali@hotmail.com', icon: 'mail' },
+    { label: 'Blog', url: 'https://aliab.me', icon: 'arrow-up-right' },
   ],
 };

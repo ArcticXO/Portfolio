@@ -1,37 +1,31 @@
 export const DEGREES = [
   {
     id: 1,
-    title: 'MSc Advanced Computer Science (Artificial Intelligence)',
-    year: '2023 — 2024',
-    university: 'University of Leeds',
-  },
-  {
-    id: 2,
     title: 'BSc Computer Science (First-Class Honours)',
-    year: '2020 — 2023',
-    university: 'University of Leicester',
+    year: '2022 — 2025',
+    university: 'Aston University, Birmingham',
   },
 ];
 
 export const CERTIFICATIONS = [
   {
     id: 1,
-    title: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+    title: 'Aston University First-Class Honours Graduate',
   },
   {
     id: 2,
-    title: 'Microsoft Certified: Azure AI Fundamentals (AI-900)',
+    title: 'Microsoft 365 & Entra ID Identity Management',
   },
   {
     id: 3,
-    title: 'DataCamp AI Engineering',
+    title: 'Docker & Containerized Microservices',
   },
   {
     id: 4,
-    title: 'Google Cloud Platform Gemini AI Fundamentals',
+    title: 'AWS Cloud Infrastructure & Deployment',
   },
   {
     id: 5,
-    title: 'The Leicester Award (Gold)',
+    title: 'Full-Stack Development (Python/Flask & Swift/SwiftUI)',
   },
 ];

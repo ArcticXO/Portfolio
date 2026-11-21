@@ -1,28 +1,47 @@
 export const WRITING_DATA = [
   {
     id: 1,
-    title: 'Interactive Exercise Tracking',
-    date: 'Jan 15, 2026',
-    readTime: '6 min read',
+    title: 'GitHub Malware: My observations',
+    date: 'May 30, 2025',
+    readTime: '5 min read',
     description:
-      'Exploring real-time skeletal motion detection with the Xbox Kinect V2 to build a personal leaderboard and form quality tracker.',
-    link: 'https://medium.com/@ahmedrahi/kinect-fitness-playground-creating-an-interactive-exercise-tracker-with-skeletal-motion-detection-ae1423b27c51',
+      'Investigating infostealers and malicious GitHub repositories, detailing the mechanics of credential exfiltration and defensive hygiene for developers.',
+    link: 'https://aliab.me/posts/Malware/',
   },
   {
     id: 2,
-    title: 'RISC vs CISC Architecture',
-    date: 'Oct 12, 2025',
-    readTime: '5 min read',
+    title: 'Flask 🧪 - The glue between Python and Web development',
+    date: 'Sep 13, 2024',
+    readTime: '6 min read',
     description:
-      'Analyzing different approaches to processor instructions and what they mean for modern software.',
-    link: 'https://medium.com/@ahmedrahi/risc-and-cisc-analysing-different-approaches-to-processor-instructions-230a1899d99e',
+      'Reflections and architecture insights from building FloodManager: using Flask to bridge robust Python backends with cross-platform client applications.',
+    link: 'https://aliab.me/posts/Flask/',
   },
   {
     id: 3,
-    title: 'The Chiplet Paradigm',
-    date: 'Sep 5, 2025',
-    readTime: '7 min read',
-    description: 'What chiplets mean for the future of silicon architectural design.',
-    link: 'https://medium.com/@ahmedrahi/the-chiplet-paradigm-and-what-it-means-for-the-future-of-silicon-architectural-design-fa3eea805091',
+    title: 'Docker: A simplified world',
+    date: 'Apr 13, 2024',
+    readTime: '4 min read',
+    description:
+      'Demystifying containerization, microservices, and Kubernetes, breaking down complex setup environments into reproducible, portable developer containers.',
+    link: 'https://aliab.me/posts/Docker/',
+  },
+  {
+    id: 4,
+    title: 'Swift/SwiftUI: My Practical Take',
+    date: 'Feb 02, 2024',
+    readTime: '5 min read',
+    description:
+      'Exploring native Apple development with Swift and SwiftUI: practical takeaways on declarative UI, reactive state management, and modern platform simplicity.',
+    link: 'https://aliab.me/posts/Swift/',
+  },
+  {
+    id: 5,
+    title: 'Tech I use 🧑🏽‍💻',
+    date: 'Jan 01, 2024',
+    readTime: '3 min read',
+    description:
+      'A breakdown of my daily hardware, terminal setup, development tools, and productivity workflow as a software engineer.',
+    link: 'https://aliab.me/posts/uses/',
   },
 ];
