@@ -5,29 +5,47 @@ import { WRITING_DATA } from '../../data/writing';
 export default function WritingTab() {
   return (
     <div className={styles.container}>
-      {WRITING_DATA.map((article) => (
-        <a
-          key={article.id}
-          href={article.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.item}
-        >
-          {article.date && (
+      <div className={styles.headerArea}>
+        <p className={styles.sectionSubtitle}>
+          Technical articles, security observations, and engineering notes published on{' '}
+          <a
+            href="https://aliab.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.inlineLink}
+          >
+            aliab.me
+          </a>
+          .
+        </p>
+      </div>
+
+      <div className={styles.list}>
+        {WRITING_DATA.map((article) => (
+          <a
+            key={article.id}
+            href={article.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.item}
+          >
             <div className={styles.meta}>
-              <span>{article.date}</span>
+              <span className={styles.date}>{article.date}</span>
               <span className={styles.dot}>·</span>
-              <span>{article.readTime}</span>
+              <span className={styles.readTime}>{article.readTime}</span>
             </div>
-          )}
-          <div className={styles.titleLink}>
-            <h3 className={styles.title}>
-              {article.title} <FiArrowUpRight className={styles.icon} />
-            </h3>
-          </div>
-          <p className={styles.description}>{article.description}</p>
-        </a>
-      ))}
+
+            <div className={styles.titleLink}>
+              <h3 className={styles.title}>
+                <span>{article.title}</span>
+                <FiArrowUpRight className={styles.icon} aria-hidden="true" />
+              </h3>
+            </div>
+
+            <p className={styles.description}>{article.description}</p>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }

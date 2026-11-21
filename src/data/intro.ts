@@ -22,3 +22,22 @@ export const INTRO_DATA = {
     { label: 'Blog', url: 'https://aliab.me', icon: 'arrow-up-right' },
   ],
 };
+
+export const CORE_SKILLS = [
+  'Python',
+  'Swift / SwiftUI',
+  'Flask',
+  'TypeScript / React',
+  'Java',
+  'C#',
+  'Docker & K8s',
+  'AWS & Azure',
+  'Test Automation',
+  'CI/CD Pipelines',
+];
+
+export const HIGHLIGHT_STATS = [
+  { label: 'BSc Computer Science', value: '1st Class Honours', sub: 'Aston University' },
+  { label: 'Current Role', value: 'Automation Engineer', sub: 'RealityMine' },
+  { label: 'Focus Areas', value: 'Test & Infrastructure', sub: 'Mobile & Cloud' },
+];

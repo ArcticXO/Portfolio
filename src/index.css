@@ -1,48 +1,96 @@
 :root {
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-serif: 'Newsreader', 'Playfair Display', serif;
+  --font-sans:
+    'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Newsreader', 'Playfair Display', Georgia, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* Colors - Light (Crisp, modern slate with refreshing teal-blue tone) */
   --bg: #f8fafc;
+  --bg-gradient: radial-gradient(circle at 50% 0%, rgba(13, 148, 136, 0.08) 0%, transparent 60%);
+  --bg-card: rgba(255, 255, 255, 0.85);
+  --bg-card-hover: #ffffff;
+  --bg-card-subtle: #f1f5f9;
   --bg-inverted: #0b1a24;
+  --nav-bg: rgba(241, 245, 249, 0.8);
+
   --text-primary: #0f232e;
   --text-secondary: #33596b;
   --text-tertiary: #52798c;
   --text-quaternary: #86a8b7;
-  --border: #dbe8ee;
-  --border-strong: #c2d8e2;
+
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --border-subtle: rgba(226, 232, 240, 0.7);
+  --border-accent: rgba(15, 118, 110, 0.25);
+
   --hover-bg: #edf5f8;
   --hover-text: #0e677c;
+
   --accent: #0f766e;
   --accent-light: #14b8a6;
+  --accent-glow: rgba(15, 118, 110, 0.15);
+  --accent-subtle: rgba(15, 118, 110, 0.08);
+
+  --badge-bg: rgba(15, 118, 110, 0.08);
+  --badge-text: #0f766e;
+  --badge-border: rgba(15, 118, 110, 0.2);
+
   --selection-bg: #99f6e4;
   --selection-text: #134e4a;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 4px 20px -2px rgba(15, 35, 46, 0.06);
+  --shadow-hover: 0 10px 25px -3px rgba(15, 35, 46, 0.1);
 }
 
 :root.dark {
-  /* Colors - Dark (Deep oceanic dark blue/teal, brighter text and accents) */
-  --bg: #0b1922; /* rich dark navy-teal background */
+  /* Colors - Dark (Deep oceanic midnight navy / almost teal dark, sleek & luminous) */
+  --bg: #09151e;
+  --bg-gradient: radial-gradient(circle at 50% -10%, rgba(45, 212, 191, 0.12) 0%, transparent 65%);
+  --bg-card: rgba(13, 27, 37, 0.75);
+  --bg-card-hover: rgba(18, 38, 52, 0.9);
+  --bg-card-subtle: rgba(14, 30, 42, 0.55);
   --bg-inverted: #f0fdfa;
-  --text-primary: #f0fdfa; /* crisp bright cyan-tinted white */
-  --text-secondary: #a3cddc; /* bright, legible oceanic slate */
+  --nav-bg: rgba(13, 27, 37, 0.75);
+
+  --text-primary: #f0fdfa;
+  --text-secondary: #a3cddc;
   --text-tertiary: #72a5b9;
   --text-quaternary: #457388;
-  --border: #173545;
-  --border-strong: #234c62;
+
+  --border: #153242;
+  --border-strong: #1f4960;
+  --border-subtle: rgba(21, 50, 66, 0.7);
+  --border-accent: rgba(45, 212, 191, 0.25);
+
   --hover-bg: #132e3d;
   --hover-text: #b8e6f4;
-  --accent: #2dd4bf; /* luminous teal accent */
+
+  --accent: #2dd4bf;
   --accent-light: #5eead4;
+  --accent-glow: rgba(45, 212, 191, 0.2);
+  --accent-subtle: rgba(45, 212, 191, 0.08);
+
+  --badge-bg: rgba(45, 212, 191, 0.1);
+  --badge-text: #5eead4;
+  --badge-border: rgba(45, 212, 191, 0.25);
+
   --selection-bg: #115e59;
   --selection-text: #f0fdfa;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 12px 30px -4px rgba(45, 212, 191, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.5);
 }
 
 *,
 ::before,
 ::after {
   box-sizing: border-box;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property:
+    color, background-color, border-color, text-decoration-color, fill, stroke, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
@@ -51,6 +99,8 @@ body {
   margin: 0;
   font-family: var(--font-sans);
   background-color: var(--bg);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
