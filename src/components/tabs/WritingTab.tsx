@@ -9,12 +9,12 @@ export default function WritingTab() {
         <p className={styles.sectionSubtitle}>
           Technical articles, security observations, and engineering notes published on{' '}
           <a
-            href="https://aliab.me"
+            href="https://medium.com/@alabdullah.ali"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.inlineLink}
           >
-            aliab.me
+            Medium
           </a>
           .
         </p>

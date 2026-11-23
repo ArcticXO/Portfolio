@@ -6,7 +6,7 @@ export const WRITING_DATA = [
     readTime: '5 min read',
     description:
       'Investigating infostealers and malicious GitHub repositories, detailing the mechanics of credential exfiltration and defensive hygiene for developers.',
-    link: 'https://aliab.me/posts/Malware/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const WRITING_DATA = [
     readTime: '6 min read',
     description:
       'Reflections and architecture insights from building FloodManager: using Flask to bridge robust Python backends with cross-platform client applications.',
-    link: 'https://aliab.me/posts/Flask/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const WRITING_DATA = [
     readTime: '4 min read',
     description:
       'Demystifying containerization, microservices, and Kubernetes, breaking down complex setup environments into reproducible, portable developer containers.',
-    link: 'https://aliab.me/posts/Docker/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const WRITING_DATA = [
     readTime: '5 min read',
     description:
       'Exploring native Apple development with Swift and SwiftUI: practical takeaways on declarative UI, reactive state management, and modern platform simplicity.',
-    link: 'https://aliab.me/posts/Swift/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
   {
     id: 5,
@@ -42,6 +42,6 @@ export const WRITING_DATA = [
     readTime: '3 min read',
     description:
       'A breakdown of my daily hardware, terminal setup, development tools, and productivity workflow as a software engineer.',
-    link: 'https://aliab.me/posts/uses/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
 ];

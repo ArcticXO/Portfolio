@@ -34,7 +34,7 @@ describe('IntroTab Component', () => {
     const emailLink = screen.getByRole('link', { name: /^email$/i });
     expect(emailLink).toHaveAttribute('href', 'mailto:AlAbdullah.ali@hotmail.com');
 
-    const blogLink = screen.getByRole('link', { name: /blog/i });
-    expect(blogLink).toHaveAttribute('href', 'https://aliab.me');
+    const mediumLink = screen.getByRole('link', { name: /medium/i });
+    expect(mediumLink).toHaveAttribute('href', 'https://medium.com/@alabdullah.ali');
   });
 });

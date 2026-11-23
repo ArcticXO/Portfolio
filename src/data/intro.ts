@@ -19,17 +19,17 @@ export const INTRO_DATA = {
       icon: 'linkedin',
     },
     { label: 'Email', url: 'mailto:AlAbdullah.ali@hotmail.com', icon: 'mail' },
-    { label: 'Blog', url: 'https://aliab.me', icon: 'arrow-up-right' },
+    { label: 'Medium', url: 'https://medium.com/@alabdullah.ali', icon: 'arrow-up-right' },
   ],
 };
 
 export const CORE_SKILLS = [
   'Python',
   'Swift / SwiftUI',
-  'Flask',
+  'Power Automate',
+  'Puppeteer',
+  'Microsoft Entra ID',
   'TypeScript / React',
-  'Java',
-  'C#',
   'Docker & K8s',
   'AWS & Azure',
   'Test Automation',

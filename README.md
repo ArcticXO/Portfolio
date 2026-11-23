@@ -2,8 +2,6 @@
 
 Personal portfolio website built with React, TypeScript, and Vite.
 
-Live deployment: [aliab.me](https://aliab.me/)
-
 ## Tech Stack
 
 - **Core**: React 19, TypeScript, Vite
@@ -32,7 +30,7 @@ npm run build
 
 ## Contact
 
-- **Website**: [aliab.me](https://aliab.me)
+- **Medium**: [medium.com/@alabdullah.ali](https://medium.com/@alabdullah.ali)
 - **GitHub**: [github.com/arcticxo](https://github.com/arcticxo)
 - **LinkedIn**: [linkedin.com/in/ali-al-abdullah-1b4352212](https://linkedin.com/in/ali-al-abdullah-1b4352212)
 - **Email**: [AlAbdullah.ali@hotmail.com](mailto:AlAbdullah.ali@hotmail.com)

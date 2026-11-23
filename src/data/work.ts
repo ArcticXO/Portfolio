@@ -39,7 +39,7 @@ export const WORK_DATA: WorkItem[] = [
     description:
       'Investigative security research into malicious repositories and infostealers circulating on GitHub. Explored reverse-engineering techniques, obfuscated scripts, and token exfiltration vectors that bypass multi-factor authentication.',
     tech: 'Cybersecurity · Python · Malware Analysis · Reverse Engineering',
-    link: 'https://aliab.me/posts/Malware/',
+    link: 'https://medium.com/@alabdullah.ali',
   },
   {
     id: 4,

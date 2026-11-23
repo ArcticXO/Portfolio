@@ -13,13 +13,14 @@ export const EXPERIENCE_DATA = [
   },
   {
     id: 2,
-    role: 'IT Support Engineer',
+    role: 'Automation Engineer',
     company: 'DSG Finance',
-    date: 'Aug 2025 — Present',
+    date: 'Aug 2025 — Feb 2026 (6 mos)',
     bullets: [
-      'Resolved 30+ technical tickets daily across Microsoft 365, Teams, and Windows environments, maintaining a 95% SLA compliance rate.',
-      'Administered 500+ user identities in Microsoft 365 Admin Center and Entra ID (Azure AD), managing license lifecycles, group access, and security policies.',
-      'Monitored and escalated Azure infrastructure incidents, documenting resolution runbooks that improved first-time fix rates by 15%.',
+      'Engineered automated business process workflows utilizing Microsoft Power Automate, eliminating manual administrative bottlenecks across departments.',
+      'Developed automated web workflows and data extraction pipelines using Puppeteer and Node.js, replacing repetitive data entry and cross-platform reconciliations.',
+      'Automated user lifecycle, role-based access management, and directory operations across Microsoft Entra ID (Azure AD) and Microsoft 365 environments.',
+      'Monitored automated pipelines and cloud services, diagnosing process failures and authoring technical documentation for continuous process optimization.',
     ],
   },
   {
